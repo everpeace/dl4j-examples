@@ -8,8 +8,8 @@
     <name>DeepLearning4j Examples</name>
     <description>Examples of training different data sets</description>
     <properties>
-        <nd4j.version>0.0.3.5.3-SNAPSHOT</nd4j.version>
-        <dl4j.version>0.0.3.2.5-SNAPSHOT</dl4j.version>
+        <nd4j.version>0.0.3.5.4</nd4j.version>
+        <dl4j.version>0.0.3.2.6</dl4j.version>
     </properties>
 
 
@@ -97,6 +97,15 @@
             <artifactId>nd4j-jblas</artifactId>
             <version>${nd4j.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.7</version>
+        </dependency>
     </dependencies>
 </project>
